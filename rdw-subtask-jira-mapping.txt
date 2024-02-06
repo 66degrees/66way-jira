@@ -3,7 +3,23 @@
   "config.project.from.csv" : "false",
   "config.encoding" : "UTF-8",
   "config.email.suffix" : "@",
+  "config.file.name" : "rdw-map-subtask.txt",
   "config.field.mappings" : {
+    "summary" : {
+      "jira.field" : "summary",
+      "userChanged" : "true",
+      "manualMapping" : "false"
+    },
+    "orig_est" : {
+      "userChanged" : "true",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10016"
+    },
+    "parent_id" : {
+      "jira.field" : "parent",
+      "userChanged" : "true",
+      "manualMapping" : "false"
+    },
     "issue_type" : {
       "jira.field" : "issuetype",
       "userChanged" : "true",
@@ -14,23 +30,8 @@
       "userChanged" : "true",
       "manualMapping" : "false"
     },
-    "summary" : {
-      "jira.field" : "summary",
-      "userChanged" : "true",
-      "manualMapping" : "false"
-    },
-    "orig_est" : {
-      "jira.field" : "timeoriginalestimate",
-      "userChanged" : "true",
-      "manualMapping" : "false"
-    },
-    "asignee" : {
+    "assignee" : {
       "jira.field" : "assignee",
-      "userChanged" : "true",
-      "manualMapping" : "false"
-    },
-    "parent_id" : {
-      "jira.field" : "parent",
       "userChanged" : "true",
       "manualMapping" : "false"
     }
@@ -38,14 +39,15 @@
   "config.csv.file.id" : null,
   "config.value.mappings" : {
     "issue_type" : {
-      "Sub-Task" : "13591"
+      "Subtask" : "13639"
     }
   },
   "config.delimiter" : ",",
   "config.project" : {
     "project.type" : null,
     "project.description" : null,
-    "project.url" : null,
+    "project.url" : null
+
   },
   "config.date.format" : "dd/MMM/yy h:mm a"
 }
