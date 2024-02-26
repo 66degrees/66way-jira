@@ -15,6 +15,11 @@
       "userChanged" : "true",
       "manualMapping" : "false"
     },
+    "orig_est" : {
+      "userChanged" : "true",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10016"
+    },
     "import_id" : {
       "jira.field" : "issue-id",
       "userChanged" : "true",
