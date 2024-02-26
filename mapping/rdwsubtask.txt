@@ -20,6 +20,11 @@
       "userChanged" : "true",
       "manualMapping" : "false"
     },
+    "import_id" : {
+      "jira.field" : "issue-id",
+      "userChanged" : "true",
+      "manualMapping" : "false"
+    },
     "issue_type" : {
       "jira.field" : "issuetype",
       "userChanged" : "true",
