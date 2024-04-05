@@ -1,0 +1,65 @@
+{
+  "config.version" : "2.0",
+  "config.project.from.csv" : "false",
+  "config.encoding" : "UTF-8",
+  "config.email.suffix" : "@",
+  "config.file.name" : "rdwstory",
+  "config.field.mappings" : {
+    "summary" : {
+      "jira.field" : "summary",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "parent_id" : {
+      "jira.field" : "subtask-parent-id",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "orig_est" : {
+      "jira.field" : "timeoriginalestimate",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "import_id" : {
+      "jira.field" : "issue-id",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "issue_type" : {
+      "jira.field" : "issuetype",
+      "userChanged" : "false",
+      "manualMapping" : "true"
+    },
+    "description" : {
+      "jira.field" : "description",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "epic_link" : {
+      "existing.custom.field" : "10100"
+    },
+    "epic_name" : {
+      "existing.custom.field" : "10102"
+    },
+    "assignee" : {
+      "jira.field" : "assignee",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    }
+  },
+  "config.csv.file.id" : null,
+  "config.value.mappings" : {
+    "issue_type" : {
+      "Subtask" : "10002",
+      "Epic" : "10000",
+      "Story" : "10001"
+    }
+  },
+  "config.delimiter" : ",",
+  "config.project" : {
+    "project.type" : null,
+    "project.description" : null,
+    "project.url" : null
+  },
+  "config.date.format" : "dd/MMM/yy h:mm a"
+}
