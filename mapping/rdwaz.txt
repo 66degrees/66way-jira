@@ -50,7 +50,7 @@
   "config.csv.file.id" : null,
   "config.value.mappings" : {
     "issue_type" : {
-      "Subtask" : "10002",
+      "Subtask" : "10003",
       "Epic" : "10000",
       "Story" : "10001"
     }
