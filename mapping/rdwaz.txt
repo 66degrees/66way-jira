@@ -45,6 +45,11 @@
       "jira.field" : "assignee",
       "userChanged" : "false",
       "manualMapping" : "false"
+    },
+    "sprint" : {
+      "existing.custom.field" : "10104"
+      "userChanged" : "false",
+      "manualMapping" : "false"
     }
   },
   "config.csv.file.id" : null,
