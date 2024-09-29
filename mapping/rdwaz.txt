@@ -47,7 +47,7 @@
       "manualMapping" : "false"
     },
     "sprint" : {
-      "existing.custom.field" : "10104"
+      "existing.custom.field" : "10104",
       "userChanged" : "false",
       "manualMapping" : "false"
     }
