@@ -51,8 +51,8 @@
       "userChanged" : "false",
       "manualMapping" : "false"
     },
-    "labels" : {
-      "jira.field" : "labels",
+    "release" : {
+      "jira.field" : "release",
       "userChanged" : "false",
       "manualMapping" : "false"
     }
