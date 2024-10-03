@@ -52,7 +52,7 @@
       "manualMapping" : "false"
     },
     "release" : {
-      "jira.field" : "release",
+      "jira.field" : "fixforversion",
       "userChanged" : "false",
       "manualMapping" : "false"
     }
