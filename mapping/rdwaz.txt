@@ -28,7 +28,7 @@
     "issue_type" : {
       "jira.field" : "issuetype",
       "userChanged" : "false",
-      "manualMapping" : "true"
+      "manualMapping" : "false"
     },
     "description" : {
       "jira.field" : "description",
