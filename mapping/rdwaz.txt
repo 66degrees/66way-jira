@@ -50,6 +50,11 @@
       "existing.custom.field" : "10104",
       "userChanged" : "false",
       "manualMapping" : "false"
+    },
+    "labels" : {
+      "jira.field" : "labels",
+      "userChanged" : "false",
+      "manualMapping" : "false"
     }
   },
   "config.csv.file.id" : null,
