@@ -55,6 +55,11 @@
       "jira.field" : "fixVersions",
       "userChanged" : "false",
       "manualMapping" : "false"
+    },
+    "labels" : {
+      "jira.field" : "labels",
+      "userChanged" : "false",
+      "manualMapping" : "false"
     }
   },
   "config.csv.file.id" : null,
