@@ -61,6 +61,9 @@
       "userChanged" : "false",
       "manualMapping" : "false"
     },
+    "story_points" : {
+      "existing.custom.field" : "10106"
+    },
     "labels" : {
       "jira.field" : "labels",
       "userChanged" : "false",
