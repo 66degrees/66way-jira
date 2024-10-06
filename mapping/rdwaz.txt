@@ -56,6 +56,11 @@
       "userChanged" : "false",
       "manualMapping" : "false"
     },
+    "due_date" : {
+      "jira.field" : "duedate",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
     "labels" : {
       "jira.field" : "labels",
       "userChanged" : "false",
