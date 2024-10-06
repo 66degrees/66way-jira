@@ -81,5 +81,5 @@
     "project.description" : null,
     "project.url" : null
   },
-  "config.date.format" : "dd/MMM/yy h:mm a"
+  "config.date.format" : "mm/dd/yy h:mm a"
 }
