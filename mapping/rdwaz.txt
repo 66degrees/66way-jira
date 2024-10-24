@@ -70,8 +70,10 @@
       "manualMapping" : "false"
     },
     "depends_on" : {
-      "link.type" : "10401"
-    },
+      "link.type" : "10401",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    }
   },
   "config.csv.file.id" : null,
   "config.value.mappings" : {
