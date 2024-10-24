@@ -68,7 +68,10 @@
       "jira.field" : "labels",
       "userChanged" : "false",
       "manualMapping" : "false"
-    }
+    },
+    "depends_on" : {
+      "link.type" : "10401"
+    },
   },
   "config.csv.file.id" : null,
   "config.value.mappings" : {
