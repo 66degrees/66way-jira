@@ -70,7 +70,7 @@
       "manualMapping" : "false"
     },
     "depends_on" : {
-      "link.type" : "10401",
+      "link.type" : "10000",
       "userChanged" : "false",
       "manualMapping" : "false"
     }
