@@ -10,8 +10,8 @@
     "ac" : {
       "existing.custom.field" : "10104"
     },
-    "parent_id" : {
-      "jira.field" : "subtask-parent-id"
+    "release" : {
+      "jira.field" : "fixVersions"
     },
     "story_points" : {
       "existing.custom.field" : "12503"
@@ -28,14 +28,20 @@
     "description" : {
       "jira.field" : "description"
     },
+    "epic_name" : {
+      "existing.custom.field" : "10301"
+    },
+    "labels" : {
+      "jira.field" : "labels"
+    },
+    "parent_id" : {
+      "jira.field" : "subtask-parent-id"
+    },
     "epic_link" : {
       "existing.custom.field" : "10300"
     },
     "assignee" : {
       "jira.field" : "assignee"
-    },
-    "labels" : {
-      "jira.field" : "labels"
     }
   },
   "config.value.mappings" : { },
@@ -48,6 +54,6 @@
     "project.name" : "Lift and Shift 66Degrees",
     "project.lead" : "lmendoza"
   },
-  "config.date.format" : "dd/MMM/yy h:mm a",
+  "config.date.format" : "yyyy-MM-dd",
   "config.create.and.assign.default.project.role" : "false"
 }
